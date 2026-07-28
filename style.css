@@ -1,53 +1,80 @@
 body{
-font-family:Arial,sans-serif;
-background:#f2f2f2;
+font-family:Arial,Helvetica,sans-serif;
+background:#eef2f7;
 margin:0;
-padding:40px;
+padding:30px;
 }
 
 #login,#panel{
-background:#fff;
-max-width:450px;
+max-width:950px;
 margin:auto;
+background:#fff;
 padding:25px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,.2);
+border-radius:12px;
+box-shadow:0 4px 15px rgba(0,0,0,.15);
 }
 
-h2,h3{
-text-align:center;
+h2{
+color:#003b7a;
+border-bottom:3px solid #003b7a;
+padding-bottom:8px;
+}
+
+h3{
+color:#222;
+}
+
+p{
+font-size:16px;
 }
 
 input{
 width:100%;
-padding:10px;
+padding:12px;
 margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
 box-sizing:border-box;
 }
 
 button{
 width:100%;
 padding:12px;
-background:#0066cc;
+background:#003b7a;
 color:white;
+font-size:16px;
 border:none;
-border-radius:5px;
+border-radius:6px;
 cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
 }
 
 table{
 width:100%;
+margin-top:15px;
+margin-bottom:25px;
 border-collapse:collapse;
-margin-top:20px;
-}
-
-th,td{
-border:1px solid #ddd;
-padding:10px;
-text-align:center;
 }
 
 th{
-background:#0066cc;
+background:#003b7a;
 color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+background:#f7f7f7;
+}
+
+b{
+color:#0b7d28;
 }
