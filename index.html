@@ -1,49 +1,114 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal Académico</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div id="login">
-    <h2>Portal Académico</h2>
-
-    <input type="text" id="usuario" placeholder="Usuario">
-    <input type="password" id="clave" placeholder="Contraseña">
-
-    <button onclick="entrar()">Ingresar</button>
-</div>
-
-<div id="panel" style="display:none;">
-
-<h2>Información del Estudiante</h2>
-
-<p><b>Nombre:</b> David Cruz Zapata</p>
-<p><b>Registro:</b> 765324</p>
-<p><b>Carrera:</b> Ciencias de la Nutrición</p>
-<p><b>Semestre:</b> I - 2026</p>
+<h2>Historial de Calificaciones</h2>
 
 <table>
 <tr>
 <th>Materia</th>
-<th>Nota</th>
+<th>Par1</th>
+<th>Par2</th>
+<th>Pra</th>
+<th>Con</th>
+<th>Fin</th>
+<th>Total</th>
 </tr>
 
-<tr><td>Materno Infantil</td><td>82</td></tr>
-<tr><td>Psicología en la Nutrición</td><td>76</td></tr>
-<tr><td>Idioma Extranjero II</td><td>71</td></tr>
-<tr><td>Realidad Nacional</td><td>85</td></tr>
+<tr>
+<td>Materno Infantil</td>
+<td>12</td>
+<td>13</td>
+<td>25</td>
+<td>8</td>
+<td>24</td>
+<td><b>82</b></td>
+</tr>
+
+<tr>
+<td>Psicología en la Nutrición</td>
+<td>10</td>
+<td>11</td>
+<td>24</td>
+<td>7</td>
+<td>24</td>
+<td><b>76</b></td>
+</tr>
+
+<tr>
+<td>Idioma Extranjero II</td>
+<td>9</td>
+<td>10</td>
+<td>22</td>
+<td>6</td>
+<td>24</td>
+<td><b>71</b></td>
+</tr>
+
+<tr>
+<td>Realidad Nacional</td>
+<td>13</td>
+<td>12</td>
+<td>26</td>
+<td>9</td>
+<td>25</td>
+<td><b>85</b></td>
+</tr>
 
 </table>
 
-<h3>Promedio: 78.5</h3>
+<h3>Promedio General: 78.50</h3>
 
-</div>
+<h2>Registro de Asistencia</h2>
 
-<script src="script.js"></script>
+<table>
 
-</body>
-</html>
+<tr>
+<th>Materia</th>
+<th>Mar</th>
+<th>Abr</th>
+<th>May</th>
+<th>Jun</th>
+<th>Jul</th>
+<th>Total</th>
+</tr>
+
+<tr>
+<td>Materno Infantil</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td><b>1</b></td>
+</tr>
+
+<tr>
+<td>Psicología en la Nutrición</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td><b>1</b></td>
+</tr>
+
+<tr>
+<td>Idioma Extranjero II</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td><b>3</b></td>
+</tr>
+
+<tr>
+<td>Realidad Nacional</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td><b>0</b></td>
+</tr>
+
+</table>
+
+<h3>Estado Académico: Regular</h3>
