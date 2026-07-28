@@ -1,1 +1,59 @@
-index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Académico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+    <h2>Portal Académico</h2>
+
+    <input type="text" id="usuario" placeholder="Usuario">
+    <input type="password" id="clave" placeholder="Contraseña">
+
+    <button onclick="entrar()">Ingresar</button>
+</div>
+
+<div id="panel" style="display:none;">
+
+    <h2>Información del Estudiante</h2>
+
+    <p><strong>Nombre:</strong> David Cruz Zapata</p>
+    <p><strong>Registro:</strong> 765324</p>
+    <p><strong>Carrera:</strong> Ciencias de la Nutrición</p>
+    <p><strong>Semestre:</strong> I - 2026</p>
+
+    <table>
+        <tr>
+            <th>Materia</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Materno Infantil</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>Psicología en la Nutrición</td>
+            <td>76</td>
+        </tr>
+        <tr>
+            <td>Idioma Extranjero II</td>
+            <td>71</td>
+        </tr>
+        <tr>
+            <td>Realidad Nacional</td>
+            <td>85</td>
+        </tr>
+    </table>
+
+    <h3>Promedio: 78.5</h3>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
